@@ -1,0 +1,16 @@
+{
+  "opportunities": [
+    {
+      "id": "1",
+      "title": "Volunteer Teacher",
+      "organization": "Teach for All",
+      "location": "New York",
+      "datePosted": "2025-05-20",
+      "category": "Education",
+      "description": "Teach underprivileged children.",
+      "duration": "3 months",
+      "skillsRequired": "Teaching, Communication",
+      "contactEmail": "contact@teachforall.org"
+    }
+  ]
+}
