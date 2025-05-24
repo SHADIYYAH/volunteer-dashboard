@@ -36,9 +36,10 @@ const HomePage: React.FC = () => {
       <OpportunityManager onAddOpportunity={handleAddOpportunity} />
       <OpportunityList
         opportunities={filteredOpportunities}
-        onOpportunityClick={(opportunity) =>
-          setSelectedOpportunity(opportunity)
-        } // Pass click handler
+        onOpportunityClick={(opportunity) => {
+          console.log("Selected Opportunity:", opportunity); // Debugging
+          setSelectedOpportunity(opportunity);
+        }}
       />
       {selectedOpportunity && (
         <OpportunityDetails
